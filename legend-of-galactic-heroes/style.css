@@ -1,0 +1,57 @@
+body {
+    background-image: url("images/deep-space.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "jura";
+}
+
+.wrapper {
+    background: #b691e7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    font-weight: 600;
+    margin: 70px 50px 50px 110px;
+    padding: 50px 50px 50px 50px;
+}
+
+h1 {
+    margin-top: 0px;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+table {
+    padding: 50px 50px 50px 50px;
+    width: 100%;
+    border-collapse: collapse;
+    font: 600px;
+}
+
+button {
+    background-color: #954edb;
+    color: #d8b6f3;
+    width: 150px;
+    height: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: 'Jura';
+}
+
+button:hover {
+    background-color: #763ead;
+    color: #b699cd;
+}
+
+th,
+td {
+    border: 2px solid rgb(26, 2, 43);
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    cursor: pointer;
+}

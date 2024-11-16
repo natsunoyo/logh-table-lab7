@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Динамічна таблиця</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Zen+Antique&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Динамічна таблиця</h1>
+        <button id="refresh">Оновити дані</button>
+        <table id="data-table">
+            <thead>
+                <tr>
+                    <th data-sort="name" style="background-color: blueviolet; font-weight: 900; color: #d3b6e8; ">Ім'я
+                    </th>
+                    <th data-sort="affiliation"
+                        style="background-color: blueviolet; font-weight: 900; color: #d3b6e8; ">Фракція</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
